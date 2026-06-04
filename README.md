@@ -107,12 +107,9 @@ poetry install
 user = "USER"               # ← USER совпадает с POSTGRES_USER
 password = "PASSWORD"       # ← USER совпадает с POSTGRES_PASSWORD
 
-...
-
 [application]
 mode = "live"               # режим: "live" или "demo"
 demo_date = "2021-02-01"    # дата начала демо-режима (mode = "demo")
-...
 ```
 
 ### 4. Запуск базы данных
