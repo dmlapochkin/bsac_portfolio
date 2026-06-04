@@ -1,0 +1,25 @@
+[project]
+name = "bsac-portfolio"
+version = "1.0.0"
+description = ""
+authors = [
+    {name = "dmlapochkin",email = "lapochkin.dmitrij@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "stable-baselines3 (>=2.8.0,<3.0.0)",
+    "gymnasium (>=1.2.0,<2.0.0)",
+    "streamlit (>=1.57.0,<2.0.0)",
+    "streamlit-extras (>=1.6.0,<2.0.0)",
+    "plotly (>=6.7.0,<7.0.0)",
+    "exchange-calendars (>=4.13.2,<5.0.0)",
+    "beautifulsoup4 (>=4.14.3,<5.0.0)",
+    "psycopg2-binary (>=2.9.12,<3.0.0)",
+    "click (>=8.4.1,<9.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,23 @@
+[database]
+user = "USER"
+password = "PASSWORD"
+host = "localhost"
+port = 5432
+database = "bsac-portfolio-db"
+
+[application]
+mode = "live"
+demo_date = "2021-02-01"
+min_date = "2000-01-01"
+
+[paths]
+model_base_dir = "models/"
+
+[parameters]
+commission = 0.002
+riskfree_rate = 0.0002
+min_position_weight = 0.005
+
+[market_data]
+default_tickers = ["ALRS", "GAZP", "GMKN", "LKOH", "MTSS", "NVTK", "PLZL", "ROSN", "SBER", "TATN"]
+target_indices = ["IMOEX"]
